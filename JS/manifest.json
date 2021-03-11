@@ -1,0 +1,53 @@
+{
+    "short_name": "GTA OFFICIAL",
+    "name": "GTA OFFICIAL",
+    "description": "DOWNLOAD GTA GAMES",
+    "icons": [
+        {
+            "src": "../IMG/IMG_20210306_175328_063.png",
+            "type": "image/png",
+            "sizes": "600x600",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "../IMG/IMG_20210306_175328_063.png",
+            "type": "image/png",
+            "sizes": "600x600",
+            "purpose": "any maskable"
+        }
+    ],
+    "start_url": "../index.html",
+    "background_color": "rgb(255, 255, 255)",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "theme_color": "rgb(243, 156, 26)",
+    "shortcuts": [
+        {
+            "short_name": "GTA OFFICIAL",
+            "name": "GTA OFFICIAL",
+            "description": "DOWNLOAD GTA GAMES",
+            "url": "../index.html",
+            "icons": [
+                {
+                    "src": "/IMG/IMG_20210306_175328_063.png",
+                    "sizes": "600x600",
+                    "purpose": "any maskable"
+                }
+            ]
+        },
+        {
+            "short_name": "GTA OFFICIAL",
+            "name": "GTA OFFICIAL",
+            "description": "DOWNLOAD GTA GAMES",
+            "url": "../index.html",
+            "icons": [
+                {
+                    "src": "../IMG/IMG_20210306_175328_063.png",
+                    "sizes": "600x600",
+                    "purpose": "any maskable"
+                }
+            ]
+        }
+    ]
+}

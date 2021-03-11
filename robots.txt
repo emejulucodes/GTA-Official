@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /*.html$
+Allow: /IMG/*.png
+Disallow: /CSS/*.css
+Disallow: /JS/*.js
