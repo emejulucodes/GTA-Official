@@ -22,13 +22,13 @@
         full = 100;
         links = document.querySelectorAll("#download");
         links[0].addEventListener("click", () =>{
-            window.open("https://download1081.mediafire.com/e3mzsldkwig/yugg7exwpceaeh/GTA+V_Offline.apk");
+            window.open("https://www.mediafire.com/file/yugg7e0xwpceaeh/GTA+V_Offline.apk/file");
         });
         links[1].addEventListener("click", () => {
-            window.open("https://download1081.mediafire.com/e3mzsldkwig/yugg7exwpceaeh/GTA+V_Offline.apk");
+            window.open("https://www.mediafire.com/file/yugg7e0xwpceaeh/GTA+V_Offline.apk/file");
         });
         links[2].addEventListener("click", () => {
-            window.open("https://download847.mediafire.com/4zd1gxrzl5ng/llf75s4ifcmh/GTA+V_Online.apl");
+            window.open("https://www.mediafire.com/file/llf75s4l25ifcmh/GTA+V_Online.apk/file");
         });
         links[3].addEventListener("click", () => {
             window.open("https://apkcabal.com.ng/gta-5-ppsspp-iso-highly-compressed/");
