@@ -7,7 +7,7 @@
     // Declare global variables
     let owner, country, date, day, year, time, sec, min, hr, device, android, windows, battery, links, batteryD, batteryS, batteryLevel, batteryCharging, empty, low, half, quarter_half, full, footer;
     // Window load event
-    window.addEventListener('load', () => {
+    window.addEventListener('load', function() {
         // Get device type
         device = navigator.userAgent;
         android = device.indexOf('Android');
@@ -21,13 +21,13 @@
         quarter_half = 90;
         full = 100;
         links = document.querySelectorAll("#download");
-        links[0].addEventListener("click", () =>{
+        links[0].addEventListener("click", function(){
             window.open("Download/Android/");
         });
-        links[1].addEventListener("click", () => {
+        links[1].addEventListener("click", function() {
             window.open("Download/iOS/");
         });
-        links[2].addEventListener("click", () => {
+        links[2].addEventListener("click", function() {
             window.open("Download/PC/");
         });
         // Set the footer content
@@ -40,7 +40,7 @@
         // Setting the battery info
         setInterval(() => {
             navigator.getBattery()
-                .then((battery) => {
+                .then(function(battery){
                     batteryLevel = parseInt(battery.level * 100);
                     batteryCharging = battery.charging;
                     if (batteryLevel >= quarter_half) {
