@@ -25,12 +25,9 @@
             window.open("https://www.mediafire.com/file/yugg7e0xwpceaeh/GTA+V_Offline.apk/file");
         });
         links[1].addEventListener("click", () => {
-            window.open("https://www.mediafire.com/file/yugg7e0xwpceaeh/GTA+V_Offline.apk/file");
+            window.open("https://ristechy.com/gta-5-android-apk-data");
         });
         links[2].addEventListener("click", () => {
-            window.open("https://www.mediafire.com/file/llf75s4l25ifcmh/GTA+V_Online.apk/file");
-        });
-        links[3].addEventListener("click", () => {
             window.open("https://apkcabal.com.ng/gta-5-ppsspp-iso-highly-compressed/");
         });
         owner = 'GTA official';
